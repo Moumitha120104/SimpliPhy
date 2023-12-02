@@ -154,8 +154,3 @@ def userInput():
     inp = [ int(i) for i in inp]
     return inp[0], inp[1], inp[2]
 
-if __name__ == "__main__":
-    ht, vel_x, vel_y = userInput()
-    # print( ht, vel_x, vel_y)
-    simulate_bounce(ht, (vel_x, vel_y))
-
